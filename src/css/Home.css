@@ -1,0 +1,97 @@
+.search-div {
+	margin-bottom: 1rem;
+}
+.first-panel {
+	background-image: url("../pics/pets-social-bw.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.second-panel {
+	background-image: url("../pics/family-bw.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.third-panel {
+	background-image: url("../pics/dog-paris-3-bw.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.section {
+	padding: 0;
+}
+.error {
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+.material-icons {
+	font-size: 1.7rem;
+	position: relative;
+	top: 5px;
+}
+
+.tab {
+	width: 33%;
+	margin-left: 0.2rem;
+}
+
+.tabs .tab a {
+	color: #000;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+	background-color: whitesmoke;
+	color: #000;
+} /*Text color on hover*/
+
+.tabs .tab a.active {
+	background-color: #5e35b1c0;
+	color: #000;
+} /*Background and text color when a tab is active*/
+
+.tabs .indicator {
+	background-color: #000;
+} /*Color of underline*/
+.panel {
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+	color: whitesmoke;
+	text-shadow: 2px 2px rgb(10, 6, 15);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.save-panel {
+	background-image: url("../pics/save-pets2.png");
+}
+.foster-panel {
+	background-image: url("../pics/fancy-dogs2.png");
+}
+.adopt-panel {
+	background-image: url("../pics/puppies3.jpg");
+}
+.panel-content {
+	font-size: 2.2rem;
+	color: #cfd8dc;
+}
+.list-btn {
+	font-size: 2.2rem;
+}
+@media only screen and (max-width: 600px) {
+	html {
+		font-size: 0.7rem;
+	}
+}
+.card-item > .collapsible-body {
+	padding: 0 !important;
+}
+.landing-list > .m6 {
+	margin-left: 10% !important;
+	width: 80% !important;
+}
+.home-icon {
+	position: unset;
+}
+.welcome-panel {
+	text-shadow: 2px 2px rebeccapurple;
+}

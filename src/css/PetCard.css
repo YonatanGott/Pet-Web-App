@@ -1,0 +1,15 @@
+.pet-info {
+	font-size: 2rem;
+}
+.pet-info span {
+	font-weight: 500;
+}
+.card-image:hover,
+.card-content:hover {
+	cursor: default;
+}
+@media only screen and (max-width: 768px) {
+	.card-image > img {
+		height: 300px;
+	}
+}

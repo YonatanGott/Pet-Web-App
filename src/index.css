@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Limelight&display=swap");
+
+body {
+	margin: 0;
+	font-family: "Oswald", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+a {
+	color: whitesmoke;
+}
+.dropdown-content li > a,
+.dropdown-content li > span {
+	color: #7e57c2 !important;
+}
+.row .col {
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+}
+.navbar {
+	margin-bottom: 2rem;
+}
+.nav-wrapper {
+	font-family: "Limelight", cursive;
+}
+.modal {
+	max-height: 100%;
+	overflow: visible;
+}
+.btn {
+	font-family: "Limelight", cursive;
+	margin-right: 2rem;
+	background-color: #7e57c2;
+	text-transform: none;
+	margin-bottom: 1rem;
+}
+.log-out-btn {
+	margin-bottom: 0;
+}
+.status-search label {
+	margin-right: 2rem;
+	font-size: 2rem;
+	font-weight: 400;
+	color: black;
+}
+.checkbox-p {
+	margin-bottom: 2rem;
+}
+.delete {
+	text-align: right !important;
+	align-self: end;
+}
+input,
+textarea {
+	font-family: "Oswald", sans-serif !important;
+	font-weight: 400 !important;
+	font-size: 1.4rem !important;
+}
