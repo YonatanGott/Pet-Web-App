@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const baseUrl = "http://localhost:5000";
-//const baseUrl = "https://pet-app-backend.herokuapp.com/api";
+//const baseUrl = "http://localhost:5000";
+const baseUrl = "https://pet-app-backend.herokuapp.com/api";
 
 axios.defaults.withCredentials = true;
 
